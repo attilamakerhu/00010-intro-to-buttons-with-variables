@@ -1,10 +1,7 @@
 input.onButtonPressed(Button.A, function () {
-    eletkor += 1
-    basic.showNumber(eletkor)
+    item += 150
 })
 input.onButtonPressed(Button.B, function () {
-    eletkor += -1
-    basic.showNumber(eletkor)
+    item += -150
 })
-let eletkor = 0
-eletkor = 12
+let item = 0
